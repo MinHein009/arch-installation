@@ -60,6 +60,7 @@ passwd grayhoddie
 # user password ရိုက်ထည့်ပါ (ဖော်ပြမထားဘဲ ရိုက်ရမည်၊ နှစ်ကြိမ်တူညီစွာ ရိုက်ပါ)
 
 # Sudo ခွင့်ပြုချက်ပေးရန်
+pacman -S sudo
 EDITOR=nano visudo
 # visudo ဖိုင်ထဲမှာ "%wheel ALL=(ALL:ALL) ALL" ဆိုတဲ့ line ကို ရှာပြီး ရှေ့က # ကို ဖြုတ်ပါ
 # Ctrl+X နှိပ်၊ Y နှိပ်၊ Enter နှိပ် ပြီးထွက်ပါ
